@@ -1,0 +1,107 @@
+/* Estilos Gerais */
+
+.header {
+	top: 0;
+	width: 100%;
+	background: #f5f5f5; /* cinza */
+	padding: 20px 0;
+	z-index: 10;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo {
+
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.cardapio {
+
+    margin: 20px 0 20px 0;
+    text-align: left;
+    
+}
+
+.cardapio h2 {
+
+text-transform: uppercase;
+font-size: 1.5em;
+text-align: left;
+    
+    
+}
+
+.cardapio h2:before {
+    
+display: block;
+content: "";
+height: 2px;
+width: 60px;
+background-color: #000000;
+text-align: left;
+margin-bottom: 7px;
+    
+}
+
+.itens {
+    
+text-transform: lowercase; 
+line-height: 2em;
+padding-top: 10px
+    
+}
+
+.footer {
+    
+margin-top: 40px;  
+margin-bottom: 20px;
+    
+}
+
+.footer h3 {
+
+text-transform: uppercase;
+font-size: 1.2em;
+text-align: left;
+margin-bottom: 10px;
+    
+    
+}
+
+.footer h3:before {
+    
+display: block;
+content: "";
+height: 2px;
+width: 60px;
+background-color: #000000;
+text-align: left;
+margin-bottom: 7px;
+    
+}
+
+.copy {
+    
+text-align: center;
+    
+}
+
+.compartilhar-fixo {
+ 
+position: fixed;
+
+right: 10px;
+top: 200px;
+width: 50px;
+    
+}
+
+.compartilhar-icons {
+max-width: 50px;    
+    
+}
